@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - dev/jfi
   workflow_dispatch:
 
 permissions:
