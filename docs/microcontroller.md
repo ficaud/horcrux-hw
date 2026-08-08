@@ -46,7 +46,7 @@ TBD: find a hackable way to do enclosure / or 3d print it.
 
 ## Next steps
 
-Learn how to create shares [here](CREATE_SHARES.md).
+Learn how to create shares [here](create-shares.md).
 
 ## More links
 

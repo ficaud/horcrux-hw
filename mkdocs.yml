@@ -1,0 +1,76 @@
+site_name: Horcrux Hardware
+site_description: Build your own Horcrux device from scratch — a step-by-step guide.
+site_url: https://ficaud.github.io/horcrux-hw/
+repo_url: https://github.com/ficaud/horcrux-hw
+repo_name: ficaud/horcrux-hw
+edit_uri: edit/main/docs/
+copyright: Horcrux Hardware is open source
+
+theme:
+  name: material
+  logo: img/horcrux-logo.png
+  favicon: img/horcrux-logo.png
+  icon:
+    repo: fontawesome/brands/github
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Microcontroller: microcontroller.md
+  - Create shares: create-shares.md
+  - Distribute shares: distribute-shares.md
+  - Roadmap: roadmap.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ficaud/horcrux-core
+      name: horcrux-core on GitHub
+
