@@ -7,7 +7,7 @@
 
 # Horcrux Hardware
 
-[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v1.2.3-orange)](https://github.com/ficaud/horcrux-core)
+[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v1.4.0-orange)](https://github.com/ficaud/horcrux-core)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue)](https://ficaud.github.io/horcrux-hw/)
 
 </div>
@@ -39,30 +39,7 @@ The site is automatically rebuilt and deployed to GitHub Pages on every push to 
 
 The documentation is versioned with [`mike`](https://github.com/jimporter/mike), which publishes multiple versions of the docs and adds a version selector in the navigation bar.
 
-### Publish a new version
-
-```bash
-pip install -r requirements.txt
-mike deploy v1.0.0 latest   # build & publish version v1.0.0
-mike set-default latest     # make "latest" the default version
-mike deploy --push          # push the gh-pages branch
-```
-
-### List published versions
-
-```bash
-mike list
-```
-
-### Delete a version
-
-```bash
-mike delete v1.0.0 --push
-```
-
-The `latest` alias always points to the most recent version, and the CI workflow (`.github/workflows/deploy.yml`) publishes a `latest` alias on every push to `main`.
-
-### Release via git tag (automatique)
+### Release via git tag (recommended)
 
 The CI workflow is configured to deploy a versioned release automatically when you push a `v*` tag. No manual `mike` command needed:
 
