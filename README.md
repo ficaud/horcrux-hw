@@ -7,7 +7,7 @@
 
 # Horcrux Hardware
 
-[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v2.2.3-orange)](https://github.com/ficaud/horcrux-core)
+[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v1.2.3-orange)](https://github.com/ficaud/horcrux-core)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue)](https://ficaud.github.io/horcrux-hw/)
 
 </div>
