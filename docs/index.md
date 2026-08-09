@@ -8,7 +8,7 @@
 
 </div>
 
-This repository is a step-by-step guide that teaches **complete beginners** how to build a Horcrux device entirely from scratch.
+This website is a step-by-step guide that teaches **complete beginners** how to build a Horcrux device entirely from scratch.
 
 This is about the hardware and how you can build it yourself. For more information about the software that runs the device, go to [horcrux-core](https://github.com/ficaud/horcrux-core).
 
@@ -51,6 +51,6 @@ Good candidates include, the master password that unlocks your password manager,
 
 Building your own Horcrux is a step-by-step journey. The steps below will walk you through each part of the process, from the hardware to how you handle your shares once they exist.
 
-- [Learn more](microcontroller.md) about the brain of the Horcrux device.
-- [Learn more](create-shares.md) about the best ways to create your shares.
-- [Learn more](distribute-shares.md) about the best ways to distribute your shares.
+- [Learn more](1_setup-hardware.md) about the brain of the Horcrux device.
+- [Learn more](2_create-shares.md) about the best ways to create your shares.
+- [Learn more](3_distribute-shares.md) about the best ways to distribute your shares.

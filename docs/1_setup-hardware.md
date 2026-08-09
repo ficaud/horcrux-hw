@@ -1,4 +1,4 @@
-# Microcontroller
+# 1. Setup the hardware
 
 The microcontroller is the brain of your Horcrux device. It runs [horcrux-core](https://github.com/ficaud/horcrux-core), the firmware that powers it.
 
@@ -40,13 +40,13 @@ TBD: add video
 
 ## Craft a nice enclosure
 
-Once your Horcrux is up and running, I'd recommend crafting a nice enclosure for your microcontroller. Not only does it protect the hardware, but it also keeps it from being mistaken for a leftover piece of electronics and thrown in the bin.
+Once your Horcrux is up and running, I'd recommend crafting a nice enclosure for your microcontroller Not only does it protect the hardware, but it also keeps it from being mistaken for a leftover piece of electronics and thrown in the bin.
 
 TBD: find a hackable way to do enclosure / or 3d print it.
 
 ## Next steps
 
-Learn how to create shares [here](create-shares.md).
+Learn how to create shares [here](2_create-shares.md).
 
 ## More links
 
