@@ -31,7 +31,9 @@ mkdocs serve
 
 Then open <http://localhost:8000>.
 
-The site is automatically rebuilt and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`).
+The site is automatically rebuilt and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`). The deployment uses the official GitHub Pages Actions (`actions/deploy-pages`), which publish the built site directly as a Pages artifact — it does **not** rely on GitHub pushing from the `gh-pages` branch.
+
+> **One-time setup:** In **Settings → Pages → Build and deployment → Source**, select **GitHub Actions** (instead of "Deploy from a branch"). This is required for the workflow to publish the site.
 
 ## Versioning
 
