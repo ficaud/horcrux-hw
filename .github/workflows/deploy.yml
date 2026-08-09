@@ -40,9 +40,10 @@ jobs:
 
       - name: Deploy with mike
         run: |
-          # Reset the gh-pages branch entirely to clear any stale/corrupted
-          # version state (e.g. "latest" wrongly registered as a version).
-          git push origin --delete gh-pages || true
+          # NOTE: Do NOT delete/recreate the gh-pages branch here. Doing so
+          # desyncs GitHub Pages ("deploy from branch" mode), leaving it serving
+          # a stale snapshot where version subdirectories (e.g. /1.0.0/) 404.
+          # mike handles versioning and cleanup itself on the gh-pages branch.
           if [ "${{ github.ref_type }}" = "tag" ]; then
             VERSION="${GITHUB_REF_NAME#v}"
             mike deploy "$VERSION" latest --push --update-aliases
