@@ -4,7 +4,7 @@ site_url: https://ficaud.github.io/horcrux-hw/
 repo_url: https://github.com/ficaud/horcrux-hw
 repo_name: ficaud/horcrux-hw
 edit_uri: edit/main/docs/
-copyright: Horcrux Hardware is open source
+copyright: Horcrux Hardware is open source — Documentation v{{ version }}
 
 theme:
   name: material
@@ -42,6 +42,7 @@ theme:
 plugins:
   - search
   - mike
+  - version_plugin
 
 markdown_extensions:
   - admonition
