@@ -72,7 +72,7 @@ nav:
   - 2. Create Shares: 2_create-shares.md
   - 3. Distribute Shares: 3_distribute-shares.md
   - 4. Explain Horcrux: 4_explain-horcrux.md
-
+  - 5. Recover Your Secret: 5_recover-your-secret.md
 extra:
   version:
     provider: mike
