@@ -63,10 +63,9 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Microcontroller: microcontroller.md
-  - Create shares: create-shares.md
-  - Distribute shares: distribute-shares.md
-  - Roadmap: roadmap.md
+  - 1. Setup the Hardware: 1_setup-hardware.md
+  - 2. Create Shares: 2_create-shares.md
+  - 3. Distribute Shares: 3_distribute-shares.md
 
 extra:
   social:
