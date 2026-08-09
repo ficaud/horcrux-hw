@@ -3,6 +3,7 @@
 The microcontroller is the brain of your Horcrux device. It runs [horcrux-core](https://github.com/ficaud/horcrux-core), the firmware that powers it.
 
 The following boards are currently supported:
+
 - [ESP32-S3-DevKitC-1](https://docs.zephyrproject.org/latest/boards/espressif/esp32s3_devkitc/doc/index.html)
 - [ESP32-DevKit-V1](https://docs.zephyrproject.org/latest/boards/others/doit_esp32_devkit_v1/doc/index.html)
 - Support for more boards is on the way — check back soon...
@@ -21,8 +22,9 @@ Here are a few sources worth checking out:
 - [Conrad](https://www.conrad.com/)
 - [Mouser](https://www.mouser.com/)
 - [Aliexpress](https://www.aliexpress.com/)
+- [Digikey](https://www.digikey.com/)
 
-## Once you receive your microcontroller
+## How to program the microcontroller
 
 Head over to [horcrux flash](https://ficaud.github.io/horcrux-core/flash.html), select your board, and download the matching firmware. To make sure you get the latest version of horcrux-core, click on **Latest GitHub Release**.
 
@@ -43,10 +45,6 @@ TBD: add video
 Once your Horcrux is up and running, I'd recommend crafting a nice enclosure for your microcontroller Not only does it protect the hardware, but it also keeps it from being mistaken for a leftover piece of electronics and thrown in the bin.
 
 TBD: find a hackable way to do enclosure / or 3d print it.
-
-## Next steps
-
-Learn how to create shares [here](2_create-shares.md).
 
 ## More links
 
