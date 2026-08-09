@@ -8,7 +8,7 @@
 
 </div>
 
-This website is a step-by-step guide that teaches **complete beginners** how to build a Horcrux device entirely from scratch.
+This doc is a step-by-step guide that teaches **complete beginners** how to build a Horcrux device entirely from scratch.
 
 This is about the hardware and how you can build it yourself. For more information about the software that runs the device, go to [horcrux-core](https://github.com/ficaud/horcrux-core).
 
@@ -34,7 +34,7 @@ This means you can distribute your shares across different locations or people, 
 
 Horcrux aims to implement Shamir's Secret Sharing in a way that is:
 
-- **Timeless** — built with durable, long-lasting hardware.
+- **Timeless** — long-lasting hardware that comes with software handling most of its functions.
 - **Private** — horcrux is not connected to the internet.
 - **Secure** — designed to protect your data against theft and loss.
 - **Open source** — anyone can build its own horcrux device for almost nothing.
