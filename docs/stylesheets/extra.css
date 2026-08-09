@@ -1,0 +1,7 @@
+/* Center images in documentation */
+.md-content img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+

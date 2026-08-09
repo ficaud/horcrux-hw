@@ -39,6 +39,9 @@ theme:
     - search.highlight
     - content.code.copy
 
+extra_css:
+  - stylesheets/extra.css
+
 plugins:
   - search
   - mike
@@ -69,6 +72,7 @@ nav:
   - 2. Create Shares: 2_create-shares.md
   - 3. Distribute Shares: 3_distribute-shares.md
   - 4. Explain Horcrux: 4_explain-horcrux.md
+
 extra:
   version:
     provider: mike
