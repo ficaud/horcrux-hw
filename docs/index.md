@@ -54,3 +54,4 @@ Building your own Horcrux is a step-by-step journey. The steps below will walk y
 - [Learn more](1_setup-hardware.md) about the brain of the Horcrux device.
 - [Learn more](2_create-shares.md) about the best ways to create your shares.
 - [Learn more](3_distribute-shares.md) about the best ways to distribute your shares.
+- [Learn more](4_explain-horcrux.md) about how to explain horcrux to people that know nothing about computer science.
