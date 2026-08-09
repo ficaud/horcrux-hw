@@ -41,6 +41,7 @@ theme:
 
 plugins:
   - search
+  - mike
 
 markdown_extensions:
   - admonition
@@ -68,6 +69,8 @@ nav:
   - 3. Distribute Shares: 3_distribute-shares.md
   - 4. Explain Horcrux: 4_explain-horcrux.md
 extra:
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/ficaud/horcrux-core
