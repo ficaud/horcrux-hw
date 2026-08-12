@@ -6,11 +6,12 @@ The following boards are currently supported:
 
 - [ESP32-S3-DevKitC-1](https://docs.zephyrproject.org/latest/boards/espressif/esp32s3_devkitc/doc/index.html)
 - [ESP32-DevKit-V1](https://docs.zephyrproject.org/latest/boards/others/doit_esp32_devkit_v1/doc/index.html)
+- [Docker Container Platform](https://github.com/ficaud/horcrux-core/blob/main/doc/docker.md): compatible with x86_64 and ARM environments (Linux, macOS, Windows, and Raspberry Pi arm64 / arm/v7).
 - Support for more boards is on the way — check back soon...
 
 > Note: These boards have been tested and are known to work with horcrux-core. There are probably more that work, but since they haven't been tested, they won't appear on the list.
 
-> Note: For now, Horcrux requires boards that support Wi-Fi Access Point (AP) mode. Future versions may support other connection methods.
+> Note 2: For now, Horcrux requires boards that support Wi-Fi Access Point (AP) mode. Future versions may support other connection methods.
 
 ## How to get a microcontroller
 
@@ -23,22 +24,35 @@ Here are a few sources worth checking out:
 - [Mouser](https://www.mouser.com/)
 - [Aliexpress](https://www.aliexpress.com/)
 - [Digikey](https://www.digikey.com/)
+- and many others...
 
 ## How to program the microcontroller
+
+The way you get Horcrux up and running depends on the platform you're targeting.
+
+### For ESP32 boards
 
 Head over to [horcrux flash](https://ficaud.github.io/horcrux-core/flash.html), select your board, and download the matching firmware. To make sure you get the latest version of horcrux-core, click on **Latest GitHub Release**.
 
 ![firmware_flashing](img/firmware_flashing.png)
 
-Once the firmware is downloaded, you'll see a Qrcode that you can then scan with your phone to join the network.
+Once the firmware is downloaded, you'll see a QR code that you can scan with your phone to join the network.
+
+<div align="center" style="display: flex; justify-content: center; gap: 10px;">
+<img src="../img/horcrux-flashing-qrcode.png" width="400" alt="success in flash horcrux">
+</div>
+
+### For Docker containers
+
+If you're running Horcrux in a Docker container — for instance on a Raspberry Pi — check out [docker.md](https://github.com/ficaud/horcrux-core/blob/main/doc/docker.md) to learn how to set it up properly.
 
 More information about the flash process can be found [here](https://github.com/ficaud/horcrux-core/tree/dev/jfi#how-to-connect-to-captive-portal).
 
-## Live demo
+## ESP32 programming Live demo
 
 Here you can find a live demo showing you in video the exact steps that you need to follow to flash horcrux-core in your device.
 
-TBD: add video
+TBD: add video of esp32 board's manipulation to get the software up and running
 
 ## Craft a nice enclosure
 
