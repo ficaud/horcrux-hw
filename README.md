@@ -7,7 +7,7 @@
 
 # Horcrux Hardware
 
-[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v1.4.0-orange)](https://github.com/ficaud/horcrux-core)
+[![Horcrux-core](https://img.shields.io/badge/Horcrux_core-v1.4.2-orange)](https://github.com/ficaud/horcrux-core)
 [![Docs](https://img.shields.io/badge/Docs-GitHub_Pages-blue)](https://ficaud.github.io/horcrux-hw/)
 
 </div>
@@ -30,6 +30,22 @@ mkdocs serve
 ```
 
 Then open <http://localhost:8000>.
+
+### Stop the server
+
+If the server is running in the foreground of your terminal, simply press `Ctrl+C` in that same terminal.
+
+If it's running in the background (for example, started with `&` or from a different terminal), you'll need to find and kill the process instead. On macOS/Linux:
+
+```bash
+pkill -f "mkdocs serve"
+```
+
+Or, to target the specific port:
+
+```bash
+lsof -ti :8000 | xargs kill
+```
 
 The site is automatically rebuilt and deployed to GitHub Pages on every push to `main` (see `.github/workflows/deploy.yml`). The deployment uses the official GitHub Pages Actions (`actions/deploy-pages`), which publish the built site directly as a Pages artifact — it does **not** rely on GitHub pushing from the `gh-pages` branch.
 
