@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/1_setup-hardware/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/2_create-shares/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/3_distribute-shares/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/4_explain-relic/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/5_recover-your-secret/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+    <url>
+         <loc>https://ficaud.github.io/relic-hw/1.0.4/contribution/</loc>
+         <lastmod>2026-08-18</lastmod>
+    </url>
+</urlset>
