@@ -1,10 +1,10 @@
 # 5. Recover your secret
 
-> Prerequisite: You should already know how to flash the Horcrux firmware onto a board, or at least how to connect to its user interface.
+> Prerequisite: You should already know how to flash the Relic firmware onto a board, or at least how to connect to its user interface.
 
-> Reminder: recovering your secret requires the threshold number of shares. Of the 5 shares initially generated, you must bring together at least 3 of them to retrieve the secret originally ciphered in the Horcrux.
+> Reminder: recovering your secret requires the threshold number of shares. Of the 5 shares initially generated, you must bring together at least 3 of them to retrieve the secret originally ciphered in the Relic.
 
-For more information on how to access the Horcrux, refer to:
+For more information on how to access the Relic, refer to:
 
 - [1. Setup the hardware](1_setup-hardware.md)
 - [2. Create shares](2_create-shares.md)
@@ -26,4 +26,4 @@ If you choose the QR code scanner, make sure you're standing directly in front o
 
 ## Troubleshooting
 
-If you have trouble resolving the QR code, you can try the online WASM version available on the [github page of the project](https://ficaud.github.io/horcrux-core/).
+If you have trouble resolving the QR code, you can try the online WASM version available on the [github page of the project](https://ficaud.github.io/relic-core/).

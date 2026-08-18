@@ -1,15 +1,15 @@
-site_name: Horcrux Hardware
-site_description: Build your own Horcrux device from scratch — a step-by-step guide.
-site_url: https://ficaud.github.io/horcrux-hw/
-repo_url: https://github.com/ficaud/horcrux-hw
-repo_name: ficaud/horcrux-hw
+site_name: Relic Hardware
+site_description: Build your own Relic device from scratch — a step-by-step guide.
+site_url: https://ficaud.github.io/relic-hw/
+repo_url: https://github.com/ficaud/relic-hw
+repo_name: ficaud/relic-hw
 edit_uri: edit/main/docs/
-copyright: Horcrux Hardware is open source — Documentation v{{ version }}
+copyright: Relic Hardware is open source — Documentation v{{ version }}
 
 theme:
   name: material
-  logo: img/horcrux-logo.png
-  favicon: img/horcrux-logo.png
+  logo: img/relic-logo.png
+  favicon: img/relic-logo.png
   icon:
     repo: fontawesome/brands/github
   palette:
@@ -71,13 +71,13 @@ nav:
   - 1. Setup the Hardware: 1_setup-hardware.md
   - 2. Create Shares: 2_create-shares.md
   - 3. Distribute Shares: 3_distribute-shares.md
-  - 4. Explain Horcrux: 4_explain-horcrux.md
+  - 4. Explain Relic: 4_explain-relic.md
   - 5. Recover Your Secret: 5_recover-your-secret.md
 extra:
   version:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/ficaud/horcrux-core
-      name: horcrux-core on GitHub
+      link: https://github.com/ficaud/relic-core
+      name: relic-core on GitHub
 
