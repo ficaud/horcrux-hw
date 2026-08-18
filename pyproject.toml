@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "horcrux-mkdocs-plugins"
+name = "relic-mkdocs-plugins"
 version = "0.1.0"
-description = "Custom MkDocs plugins for the Horcrux Hardware documentation"
+description = "Custom MkDocs plugins for the Relic Hardware documentation"
 requires-python = ">=3.8"
 
 [project.entry-points."mkdocs.plugins"]

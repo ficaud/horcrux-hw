@@ -44,12 +44,12 @@ This means you must embed only the essential information in the label:
 - What the secret is about,
 - Who the person is that holds this secret,
 - When the secret was created,
-- Which [horcrux-core](https://github.com/ficaud/horcrux-core) version was used at the time.
+- Which [relic-core](https://github.com/ficaud/relic-core) version was used at the time.
 
 For example, a label could look like this:
 
 ```bash
-Bitcoin wallet recovery — belongs to Alice — created on 2026-08-12 — horcrux-core v1.2.3 — scan the QR code and enter your shares to recover the seed.
+Bitcoin wallet recovery — belongs to Alice — created on 2026-08-12 — relic-core v1.2.3 — scan the QR code and enter your shares to recover the seed.
 ```
 
 Or something shorter like:
@@ -79,7 +79,7 @@ TBD: photo of a key chain containing the shares
 
 ## How to craft a share (method 2)
 
-> Note: If you have another method in mind that could be added to this document, please read [contribution.md](contribution.md) so that we can make Horcrux evolve.
+> Note: If you have another method in mind that could be added to this document, please read [contribution.md](contribution.md) so that we can make Relic evolve.
 
 ## How to distribute shares
 
@@ -101,7 +101,7 @@ After all, you can never be sure how your relationships will evolve in the futur
 
 ### 3. Don't wait to Recreate the missing shares
 
-As soon as you realize a share is missing among the people keeping them, use Horcrux again to recreate your secret's shares with the ones that aren't lost at the moment.
+As soon as you realize a share is missing among the people keeping them, use Relic again to recreate your secret's shares with the ones that aren't lost at the moment.
 
 **Don't wait until most of them are lost** — by then it will be too late, and your secret will be gone forever.
 

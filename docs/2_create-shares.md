@@ -1,12 +1,12 @@
 # 2. Create Shares
 
-> Note: If you want to know more about the way to connect to horcrux device, please refer to the previous page.
+> Note: If you want to know more about the way to connect to relic device, please refer to the previous page.
 
-When you connect to the Horcrux, you'll see two options: **split** or **unsplit**.
+When you connect to the Relic, you'll see two options: **split** or **unsplit**.
 
-![horcrux main page](img/horcrux_mainpage.PNG){ width="300" }
+![relic main page](img/relic_mainpage.PNG){ width="300" }
 
-Horcrux runs as a captive portal, so the app opens automatically on your phone as soon as you connect to the device. To unlock its full capabilities, though, **you should open it in your favourite web browser instead**. As mentioned on the main page of Horcrux, the link to get there is `horcrux.co`.
+Relic runs as a captive portal, so the app opens automatically on your phone as soon as you connect to the device. To unlock its full capabilities, though, **you should open it in your favourite web browser instead**. As mentioned on the main page of Relic, the link to get there is `relic.co`.
 
 ## Split your secret
 
@@ -35,8 +35,8 @@ Plain text is convenient, but hard to share with other people. That's why you ca
 The QR code is generated on the fly and never stored on the device. It can be scanned by any phone or tablet, making it perfect for printing out or sending to someone else.
 
 <div align="center" style="display: flex; justify-content: center; gap: 10px;">
-    <img src="../img/qrcode_download.PNG" width="300" alt="split tab from horcrux core">
-<img src="../img/qrcode_preview.PNG" width="300" alt="unsplit tab from horcrux core">
+    <img src="../img/qrcode_download.PNG" width="300" alt="split tab from relic core">
+<img src="../img/qrcode_preview.PNG" width="300" alt="unsplit tab from relic core">
 </div>
 
 > Note: You'll learn about the best ways to distribute your shares in the next step, [Distribute Shares](3_distribute-shares.md).
@@ -47,4 +47,4 @@ The **unsplit** option does the exact opposite: it reconstructs your original se
 
 ---
 
-> Note: The screenshots in this guide may become outdated over time. They will be refreshed whenever significant updates are made to Horcrux.
+> Note: The screenshots in this guide may become outdated over time. They will be refreshed whenever significant updates are made to Relic.
